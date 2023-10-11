@@ -1,6 +1,6 @@
 # English to Hinglish Machine Translation using T5-Small
 
-This project utilizes the Hugging Face Transformers library and the pretrained model "t5-small" to perform English to Hinglish (English to Hindi transliteration) machine translation. The model is fine-tuned for the specific use case and trained on the [findnitai/english-to-hinglish dataset](https://huggingface.co/datasets/findnitai/english-to-hinglish).
+This project utilizes the Hugging Face Transformers library and the pretrained model "[t5-small](https://huggingface.co/t5-small)" to perform English to Hinglish machine translation. The model is fine-tuned for the specific use case and trained on the [findnitai/english-to-hinglish dataset](https://huggingface.co/datasets/findnitai/english-to-hinglish).
 
 ## Instructions
 
@@ -18,5 +18,4 @@ For performing inference (translation), follow these steps:
 
 To get started with this project, you'll need access to Google Colab, as the provided notebooks are designed for that environment.
 
-## Contributing
 
