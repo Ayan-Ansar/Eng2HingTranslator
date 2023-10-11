@@ -23,12 +23,9 @@ For performing inference (translation), follow these steps:
         result = result.lower().split(' ')
         ans = []
         for i in result:
-            if i in common_hindi_eng_words:
-                i = translate_to_hindi(i)
-            if i not in words.words():
+            if i in common_hindi_eng_words or if i not in words.words():
                 i = translate_to_hindi(i)
             ans.append(i)
-    
         return ' '.join(ans)
     ```
     You can use this function to perform English to Hinglish translation using the trained model.
