@@ -31,7 +31,7 @@ For performing inference (translation), follow these steps:
     You can use this function to perform English to Hinglish translation using the trained model.
 
 ## OUTPUT
-[output_image](https://github.com/Ayan-Ansar/Eng2HingTranslator/blob/main/output_of_input_text_assignment.png)
+[output_image](https://github.com/Ayan-Ansar/Eng2HingTranslator/blob/main/output_of_input_text.png)
 
 
 
